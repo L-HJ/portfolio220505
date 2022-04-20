@@ -570,18 +570,6 @@ $('div.aboutme a.back_about').on('click', function(){
   $('div.aboutme').removeClass('show'); 
 });    
 
-// 모달창 띄우기 
-    $('div.main_port div.pf_list').on('click', function(){
-        var index = $('div.main_port div.pf_list').index($(this));
-        // alert(index);  
-        $('div.main_port div.modal>div').css({'display':'none'}); 
-        $('div.main_port div.modal>div:eq(' + index + ')').css({'display':'block'}); 
-      });
-
-    $('.close').on('click', function(){
-        $('div.main_port div.modal>div').css({'display':'none'}); 
-      });
-
 //마우스 커서 
 	/* **************************************** *
 	 * Functions Init
