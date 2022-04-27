@@ -34,9 +34,9 @@ $(window).ready(function(){
 					var n = i + 1;
 					$('.menu-links ul li').removeClass('on');
 					$('.menu-links ul li:eq(' + (n - 1) + ')').addClass('on');
-					pageNow = n;
-					pagePrev = (n - 1) < 1 ? 1 : n - 1;
-					pageNext = (n + 1) > numPage ? numPage : n + 1;
+// 					pageNow = n;
+// 					pagePrev = (n - 1) < 1 ? 1 : n - 1;
+// 					pageNext = (n + 1) > numPage ? numPage : n + 1;
 					return false;
 				}
 			});
